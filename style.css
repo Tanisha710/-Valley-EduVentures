@@ -1,0 +1,43 @@
+
+h1
+{
+color:blue;
+text-align:center;
+margin-top:150px;
+margin-left: 5%;
+text-shadow: 2px 2px 5px #66a3ff;
+padding: 20px;
+}
+body
+{
+    background-image:url();
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.container
+{
+background:linear-gradient(#cce0ff,#66a3ff);
+height:100px;
+width:max-content;
+}
+button
+{
+background-color:white;
+padding: 12px;
+color:blue;
+font-size: 30px;
+font-style:calc();
+border: 0ch;
+margin-left:22px;
+text-shadow: 2px 2px 5px #66a3ff;
+}
+
+button:hover
+{
+    background-color:blue;
+    color:white;
+}
+.acad
+{
+    margin-left: 35%;
+}
