@@ -1,43 +1,91 @@
-
-h1
-{
-color:blue;
-text-align:center;
-margin-top:150px;
-margin-left: 5%;
-text-shadow: 2px 2px 5px #66a3ff;
-padding: 20px;
-}
-body
-{
-    background-image:url();
-    background-repeat:no-repeat;
-    background-size:cover;
-}
-.container
-{
-background:linear-gradient(#cce0ff,#66a3ff);
-height:100px;
-width:max-content;
-}
-button
-{
-background-color:white;
-padding: 12px;
-color:blue;
-font-size: 30px;
-font-style:calc();
-border: 0ch;
-margin-left:22px;
-text-shadow: 2px 2px 5px #66a3ff;
+h1 {
+    color: blue;
+    text-align: center;
+    margin-left: 3%;
+    text-shadow: 2px 2px 5px #66a3ff;
 }
 
-button:hover
-{
-    background-color:blue;
-    color:white;
+body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.acad
-{
-    margin-left: 35%;
+.navi{
+    margin:  auto 20px ;
+    margin-bottom: 20px;
 }
+.navii{
+   align-items: center;
+   margin-left: calc(500px);
+}
+.navi li{
+    margin-left: 8px;
+    padding: 2px;
+}
+.collaps ul li a{
+    font-weight: 700;
+}
+
+.navi li:hover{
+   /*  background-color:rgb(83, 218, 83); */
+    border-radius: 10px;
+    transition: 1s;
+}
+.navi li ul li{
+    margin: 0px;
+    padding:0px;
+}
+.dropdown-menu{
+    margin: 0;
+    padding: 0;
+}
+.navi li ul li{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: none;
+}
+.dropdown-item:hover {
+    background-color:rgb(83, 218, 83); 
+    
+}
+.navi li ul li:hover{
+    border: 1px solid black;
+    border-radius: 0;
+    transition: 0.3s;
+}
+
+
+.img {
+    margin: auto 10%;
+    border-radius: 20%;
+}
+
+#view {
+    width: 100%;
+   
+}
+.contex {
+    
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .contex big {
+    font-weight: 700;
+  }
+  
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    border-radius: 10px; 
+    overflow: hidden; 
+  }
+  
+  .ele {
+    margin-top:30px; 
+    height: 220px;
+    width: 250px;
+    border-radius: 10px; 
+    text-align: center3
+  }
